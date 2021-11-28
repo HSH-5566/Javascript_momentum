@@ -1,0 +1,132 @@
+.hidden {
+    display: none;
+}
+
+img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#clock {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    opacity: 0.95;
+    font-size: 5.0em;
+    text-shadow:1px 1px 1px #000;
+    z-index: 2;
+}
+
+#weather {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 1.0em;
+    text-shadow:1px 1px 1px #000;
+    z-index: 2;
+}
+
+#loginForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#loginForm input:first-child {
+    border:none;
+    height: 30px;
+    opacity: 0.7;
+}
+
+#loginForm input:last-child {
+    border:none;
+    height: 30px;
+    opacity: 0.7;
+}
+
+#loginForm input:last-child:hover {
+    border:none;
+    height: 30px;
+    background-color: gray;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#greeting {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 2.0em;
+    text-shadow:1px 1px 1px #000;
+    z-index: 2;
+}
+
+#todo-form input{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:none;
+    height: 30px;
+    width: 300px;
+    opacity: 0.7;
+    z-index: 2;
+}
+
+#todo-list {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    height: 200px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.7);
+    list-style:none;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    z-index: 2;
+}
+
+#todo-list li {
+    color: black;
+}
+
+#todo-list li button{
+    position: absolute;
+    left: 0;
+    border: none;
+    background-color:transparent;
+}
+
+#todo-list li button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#todo-list::-webkit-scrollbar {
+    width: 10px;
+}
+#todo-list::-webkit-scrollbar-thumb {
+    background-color: #6363638f;
+}
+
+#quotes {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgba(255, 255, 255, 0.8);
+    text-shadow:1px 1px 1px #000;
+    z-index: 2;
+}
